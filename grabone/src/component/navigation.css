@@ -1,0 +1,24 @@
+.navColor{
+    background-color:#01b2ee ;
+    color: white;
+    font-family: MuseoSans,sans-serif;
+}
+.navColor2{
+    background-color: white;
+    box-shadow: 0 0 10px 0 rgb(75 84 96 / 22%);
+    font-family: MuseoSans,sans-serif;
+    font-weight: 500;
+}
+.colorFont a{
+    color: white !important;
+}
+.colorFont2 a{
+    color: #8c8181;
+    padding-right: 40px;
+    padding-left: 0px !important;
+
+}
+.brand{
+    font-weight: 800 !important;
+    font-size: 30px;
+}
