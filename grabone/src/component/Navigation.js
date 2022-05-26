@@ -4,6 +4,13 @@ import { Link, useNavigate } from "react-router-dom";
 import './navigation.css';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { IoLocationOutline } from 'react-icons/io';
+import { FiHeart } from 'react-icons/fi';
+import { FiShoppingCart } from 'react-icons/fi';
+import { BsPerson } from 'react-icons/bs';
+
+import { HiOutlineMail } from 'react-icons/hi';
+
 
 import {
   Container,
@@ -13,7 +20,7 @@ import {
   Form,
   Button,
   FloatingLabel,
-  Modal,
+  Modal,NavDropdown,FormControl
 } from "react-bootstrap";
 
 const Navigation = () => {
@@ -31,16 +38,27 @@ const Navigation = () => {
     </Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
-    <Nav.Link href="/home">Active</Nav.Link>
-    <Nav.Item>
-      <Nav.Link eventKey="link-1">Link</Nav.Link>
+    <NavDropdown title='Auckland' id="navbarScrollingDropdown">
+          <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
+          <NavDropdown.Item href="#action4">Another action</NavDropdown.Item>
+          <NavDropdown.Divider />
+          <NavDropdown.Item href="#action5">
+            Something else here
+          </NavDropdown.Item>
+        </NavDropdown>    <Nav.Item>
+      <Nav.Link eventKey="link-1"><FiHeart size={25}/></Nav.Link>
     </Nav.Item>
     <Nav.Item>
-      <Nav.Link eventKey="link-2">Link</Nav.Link>
+      <Nav.Link eventKey="link-2"><FiShoppingCart size={25}/></Nav.Link>
     </Nav.Item>
     <Nav.Item>
-      <Nav.Link eventKey="disabled" disabled>
-        Disabled
+      <Nav.Link eventKey="disabled" >
+        <BsPerson size={25}/>
+      </Nav.Link>
+    </Nav.Item>
+    <Nav.Item>
+      <Nav.Link eventKey="disabled" >
+        <HiOutlineMail size={25}/> Subscribe
       </Nav.Link>
     </Nav.Item>
     </Navbar.Collapse>
@@ -54,7 +72,14 @@ const Navigation = () => {
     
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav" className="justify-content-start">
-    <Nav.Link href="">Browse category</Nav.Link>
+    <NavDropdown title="Browse Categories" id="navbarScrollingDropdown">
+          <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
+          <NavDropdown.Item href="#action4">Another action</NavDropdown.Item>
+          <NavDropdown.Divider />
+          <NavDropdown.Item href="#action5">
+            Something else here
+          </NavDropdown.Item>
+        </NavDropdown>
     <Nav.Item>
       <Nav.Link eventKey="link-1">What's New</Nav.Link>
     </Nav.Item>
@@ -71,6 +96,19 @@ const Navigation = () => {
         Shop Products
       </Nav.Link>
     </Nav.Item>
+    {/* ///////////////////// */}
+    <Form className="d-flex" >
+        <FormControl
+          type="search"
+          placeholder=" Search GrabOne"
+          className="me-2 search"
+          aria-label="Search"
+         
+        />
+        
+      </Form>
+
+
     </Navbar.Collapse>
   </div>
 </Navbar>

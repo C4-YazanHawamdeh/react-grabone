@@ -12,7 +12,7 @@ const Footer=()=>{
 <>
 <div className='footer'>
 <div className="row ">
-    <div className="col-lg-3">
+    <div className="col-lg-3 col-sm-4">
         <h6>Follow us on</h6>
         <div>
         <BsFacebook className='icon' size={27}/>
@@ -25,7 +25,7 @@ const Footer=()=>{
         <button style={{marginTop:'10px'}} class="btn btn-primary " type="button">Download our App</button>
 
     </div>
-    <div className="col-lg-2">
+    <div className="col-lg-2 col-sm-4">
     <h6>GrabOne</h6>
     <div className="grabOneDetails">
                                 <p>Contact Us</p>
@@ -37,7 +37,7 @@ const Footer=()=>{
                                 </div>
 
     </div>
-    <div className="col-lg-2">
+    <div className="col-lg-2 col-sm-4">
     <h6>My Account</h6>
     <div className="grabOneDetails">
                                 <p>My Account</p>
@@ -48,7 +48,7 @@ const Footer=()=>{
                                 </div>
 
     </div>
-    <div className="col-lg-2">
+    <div className="col-lg-2 col-sm-4 pp">
     <h6>Merchants</h6>
     <div className="grabOneDetails">
                                 <p>Run a Deal</p>
@@ -57,7 +57,7 @@ const Footer=()=>{
                                
                                 </div>
     </div>
-    <div className="col-lg-3">
+    <div className="col-lg-3 col-sm-6 pp">
     <h6>Newsletter Signup</h6>
     
         <p className='news'>Sign up for our daily emails and we'll send you all the best deals, tailored for you.</p>
