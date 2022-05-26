@@ -18,9 +18,10 @@ function App() {
   return (
     <div className="App">
       <Navigation/>
+      <Home/>
+
       <Routes>
       <Route path="/home" element={<Home />} />
-
       </Routes>
       <div style={{backgroundColor:'white'}}>
       <div className='container-fluid col-11'>

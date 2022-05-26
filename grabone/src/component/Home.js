@@ -502,12 +502,12 @@ const Home = () => {
                                     <div className='card card1 col-sm col-lg-4 m-2'>
 
                                         <div className=' '>
-                                            {/* <div className='tile'> */}
-                                                <img class="card-img-top " src={ele.img} alt="Card image cap" />
-                                                {/* <span class="overlay">
-                                                    <h1 className='hidden-text visible-text'>THIS IS A TITLE</h1>
-                                                </span> */}
-                                            {/* </div> */}
+                                            <div className='container1'>
+                                                <img class="card-img-top " src={ele.img} alt="Card image cap image" />
+                                                <span class="overlay">
+                                                <h5 class="card-title textt" style={{ fontSize: '17px' }}>{ele.title}</h5>
+                                                </span>
+                                            </div>
 
                                             <div class="card-body  ">
                                                 <div>
@@ -540,10 +540,10 @@ const Home = () => {
                 <div class="card text-center " style={{ width: '100rem' }}>
 
                     <div class="card-body3 row">
-                        <div className=' col-lg-6 col-sm-12'>
+                        <div className=' col-lg-6 col-sm-12 col-md-12'>
                             <p class="card-text text1 get">Get the best deals delivered direct to your inbox each day</p>
                         </div>
-                        <div class="input-group col-sm-12 col-lg-6 inp  inp2">
+                        <div class="input-group col-sm-12 col-lg-6 col-md-12 inp  inp2">
                             <input type="text" class="form-control" placeholder="Enter Email Address" aria-label="Recipient's username" aria-describedby="basic-addon2" />
                             <div class="input-group-append">
                                 <button class="btn btn-primary btn1" type="button">Subscribe</button>
