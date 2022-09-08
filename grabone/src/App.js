@@ -20,9 +20,9 @@ function App() {
       <Navigation/>
       <Home/>
 
-      <Routes>
+      {/* <Routes>
       <Route path="/home" element={<Home />} />
-      </Routes>
+      </Routes> */}
       <div style={{backgroundColor:'white'}}>
       <div className='container-fluid col-11'>
       <Footer/></div></div>

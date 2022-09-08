@@ -471,7 +471,7 @@ const Home = () => {
                 <img src="https://mediacdn.grabone.co.nz/asset/3pC7sBYlTK" class="desktopheaderimage" alt="Click Frenzy Mayhem"></img>
 
             </div>
-            <strong className='imgHeader mt-4'>For savings on big brands you love, <a href="https://clickfrenzy.co.nz/" className='reg'> register here.</a> </strong>
+            <strong className='imgHeader mt-4 tt'>For savings on big brands you love, <a href="https://clickfrenzy.co.nz/" className='reg'> register here.</a> </strong>
             <div className='group'>
                 <div className='container-fluid col-11'>
 
@@ -519,8 +519,8 @@ const Home = () => {
 
                                                 <div className='bottomDis row'>
 
-                                                    <p class="card-text col-lg-9 col-sm-8 pt-4 text2" style={{ fontSize: '14px', color: '#92a2ad' }}>{ele.bou}</p>
-                                                    <div className='price col-lg-3 col-sm-4 ' style={{ paddingRight: "20px", marginTop: '10px' }}>
+                                                    <p class="card-text col-lg-9 col-sm-8 col-8 pt-4 text2" style={{ fontSize: '14px', color: '#92a2ad' }}>{ele.bou}</p>
+                                                    <div className='price col-lg-3 col-sm-4 col-4' style={{ paddingRight: "20px", marginTop: '10px' }}>
                                                         <h5 class="card-text1   " style={{ fontSize: '1rem' }}><span className='old' style={{ padding: '15px 8px 0px 0px'}}>{ele.oldPrice}</span><span style={{ padding: "0px 0px 0px 0px", fontSize: '1.9rem', color: "#01b2ee" }} > {ele.realPrice}</span>
                                                         </h5>
 
@@ -569,7 +569,12 @@ const Home = () => {
 
                                     <div className='test card mx-2'>
 
-                                        <img class="card-img-top" src={ele.img} alt="Card image cap" />
+                                    <div className='container1'>
+                                                <img class="card-img-top " src={ele.img} alt="Card image cap image" />
+                                                <span class="overlay">
+                                                <h5 class="card-title textt" style={{ fontSize: '17px' }}>{ele.title}</h5>
+                                                </span>
+                                            </div>
 
                                         <div class="card-body">
                                             <div>
@@ -579,8 +584,8 @@ const Home = () => {
 
                                             </div>
                                             <div className='bottomDis row'>
-                                                <p class="card-text col-lg-9 col-sm-8 pt-4 text2" style={{ fontSize: '14px', color: '#92a2ad' }}>{ele.bou}</p>
-                                                <div className='price col-lg-3 col-sm-4 ' style={{ paddingRight: "20px", marginTop: '10px' }}>
+                                                <p class="card-text col-lg-9 col-sm-8 pt-4 text2 col-8" style={{ fontSize: '14px', color: '#92a2ad' }}>{ele.bou}</p>
+                                                <div className='price col-lg-3 col-sm-4 col-4' style={{ paddingRight: "20px", marginTop: '10px' }}>
                                                     <h5 class="card-text1   " style={{ fontSize: '0.8rem' }}><span className='old' style={{ padding: '15px 8px 0px 0px' }}>{ele.oldPrice}</span><span  style={{ padding: "0px 0px 0px 0px", fontSize: '1.8rem', color: "#01b2ee" }} > {ele.realPrice}</span>
                                                     </h5>
 
@@ -614,8 +619,12 @@ const Home = () => {
 
                                     <div className='test1 card mx-2'>
 
-                                        <img class="card-img-top" src={ele.img} alt="Card image cap" />
-
+                                    <div className='container1'>
+                                                <img class="card-img-top " src={ele.img} alt="Card image cap image" />
+                                                <span class="overlay">
+                                                <h5 class="card-title textt" style={{ fontSize: '17px' }}>{ele.title}</h5>
+                                                </span>
+                                            </div>
                                         <div class="card-body">
                                             <div style={{ textAlign: 'center' }}>
                                                 {/* <h5 class="card-title justify-contant-start">{ele.title}</h5> */}
@@ -658,8 +667,12 @@ const Home = () => {
 
                                     <div className='test card mx-2'>
 
-                                        <img class="card-img-top" src={ele.img} alt="Card image cap" />
-
+                                    <div className='container1'>
+                                                <img class="card-img-top " src={ele.img} alt="Card image cap image" />
+                                                <span class="overlay">
+                                                <h5 class="card-title textt" style={{ fontSize: '17px' }}>{ele.title}</h5>
+                                                </span>
+                                            </div>
                                         <div class="card-body">
                                             <div>
                                                 <h5 class="card-title justify-contant-start" style={{ fontSize: '17px' }}>{ele.title}</h5>
@@ -668,8 +681,8 @@ const Home = () => {
 
                                             </div>
                                             <div className='bottomDis row'>
-                                                <p class="card-text col-lg-9 col-sm-8 pt-4 text2" style={{ fontSize: '14px', color: '#92a2ad' }}>{ele.bou}</p>
-                                                <div className='price col-lg-3 col-sm-4 ' style={{ paddingRight: "20px", marginTop: '10px' }}>
+                                                <p class="card-text col-lg-9 col-sm-8 pt-4 text2 col-8" style={{ fontSize: '14px', color: '#92a2ad' }}>{ele.bou}</p>
+                                                <div className='price col-lg-3 col-sm-4 col4' style={{ paddingRight: "20px", marginTop: '10px' }}>
                                                     <h5 class="card-text1   " style={{ fontSize: '0.8rem' }}><span className='old' style={{ padding: '15px 8px 0px 0px' }}>{ele.oldPrice}</span><span style={{ padding: "0px 0px 0px 0px", fontSize: '1.8rem', color: "#01b2ee" }} > {ele.realPrice}</span>
                                                     </h5>
 
@@ -701,8 +714,12 @@ const Home = () => {
 
                                     <div className='test card mx-2'>
 
-                                        <img class="card-img-top" src={ele.img} alt="Card image cap" />
-
+                                    <div className='container1'>
+                                                <img class="card-img-top " src={ele.img} alt="Card image cap image" />
+                                                <span class="overlay">
+                                                <h5 class="card-title textt" style={{ fontSize: '17px' }}>{ele.title}</h5>
+                                                </span>
+                                            </div>
                                         <div class="card-body">
                                             <div>
                                                 <h5 class="card-title justify-contant-start">{ele.title}</h5>
@@ -711,8 +728,8 @@ const Home = () => {
 
                                             </div>
                                             <div className='bottomDis row'>
-                                                <p class="card-text col-lg-7 col-sm-5 pt-3 text2">{ele.bou}</p>
-                                                <div className='price col-lg-5 col-sm-7 row' style={{ padding: "0px" }}>
+                                                <p class="card-text col-lg-7 col-sm-5 pt-3 text2 col-10">{ele.bou}</p>
+                                                <div className='price col-lg-5 col-sm-7 row col-2' style={{ padding: "0px" }}>
                                                     <p class="card-text  col-lg-6 col-sm-6 pt-3 old" style={{ paddingLeft: "30px", fontSize: '1rem' }}>{ele.oldPrice}</p>
                                                     <p class="card-text col-lg-6 col-sm-6" style={{ padding: "0px 0px 10px 0px", fontSize: '2rem', color: "#01b2ee" }}>{ele.realPrice}</p>
                                                 </div>
@@ -746,8 +763,12 @@ const Home = () => {
 
                                     <div className='test card mx-2'>
 
-                                        <img class="card-img-top" src={ele.img} alt="Card image cap" />
-
+                                    <div className='container1'>
+                                                <img class="card-img-top " src={ele.img} alt="Card image cap image" />
+                                                <span class="overlay">
+                                                <h5 class="card-title textt" style={{ fontSize: '17px' }}>{ele.title}</h5>
+                                                </span>
+                                            </div>
                                         <div class="card-body">
                                             <div>
                                                 <h5 class="card-title justify-contant-start" style={{ fontSize: '17px' }}>{ele.title}</h5>
@@ -756,8 +777,8 @@ const Home = () => {
 
                                             </div>
                                             <div className='bottomDis row'>
-                                                <p class="card-text col-lg-9 col-sm-8 pt-4 text2" style={{ fontSize: '14px', color: '#92a2ad' }}>{ele.bou}</p>
-                                                <div className='price col-lg-3 col-sm-4 ' style={{ paddingRight: "20px", marginTop: '10px' }}>
+                                                <p class="card-text col-lg-9 col-sm-8 pt-4 text2 col-8" style={{ fontSize: '14px', color: '#92a2ad' }}>{ele.bou}</p>
+                                                <div className='price col-lg-3 col-sm-4 col-4' style={{ paddingRight: "20px", marginTop: '10px' }}>
                                                     <h5 class="card-text1   " style={{ fontSize: '0.8rem' }}><span className='old' style={{ padding: '15px 8px 0px 0px' }}>{ele.oldPrice}</span><span style={{ padding: "0px 0px 0px 0px", fontSize: '1.8rem', color: "#01b2ee" }} > {ele.realPrice}</span>
                                                     </h5>
 
@@ -790,8 +811,12 @@ const Home = () => {
 
                                     <div className='test card mx-2'>
 
-                                        <img class="card-img-top" src={ele.img} alt="Card image cap" />
-
+                                    <div className='container1'>
+                                                <img class="card-img-top " src={ele.img} alt="Card image cap image" />
+                                                <span class="overlay">
+                                                <h5 class="card-title textt" style={{ fontSize: '17px' }}>{ele.title}</h5>
+                                                </span>
+                                            </div>
                                         <div class="card-body">
                                             <div>
                                                 <h5 class="card-title justify-contant-start" style={{ fontSize: '17px' }}>{ele.title}</h5>
@@ -800,8 +825,8 @@ const Home = () => {
 
                                             </div>
                                             <div className='bottomDis row'>
-                                                <p class="card-text col-lg-9 col-sm-8 pt-4 text2" style={{ fontSize: '14px', color: '#92a2ad' }}>{ele.bou}</p>
-                                                <div className='price col-lg-3 col-sm-4 ' style={{ paddingRight: "20px", marginTop: '20px' }}>
+                                                <p class="card-text col-lg-9 col-sm-8 pt-4 text2 col-8" style={{ fontSize: '14px', color: '#92a2ad' }}>{ele.bou}</p>
+                                                <div className='price col-lg-3 col-sm-4 col-4' style={{ paddingRight: "20px", marginTop: '20px' }}>
                                                     <h5 class="card-text1   " style={{ fontSize: '0.8rem' }}><span className='old' style={{ padding: '15px 8px 0px 0px' }}>{ele.oldPrice}</span><span style={{ padding: "0px 0px 10px 0px", fontSize: '1.8rem', color: "#01b2ee" }} > {ele.realPrice}</span>
                                                     </h5>
 
@@ -834,8 +859,12 @@ const Home = () => {
 
                                     <div className='test card mx-2'>
 
-                                        <img class="card-img-top" src={ele.img} alt="Card image cap" />
-
+                                    <div className='container1'>
+                                                <img class="card-img-top " src={ele.img} alt="Card image cap image" />
+                                                <span class="overlay">
+                                                <h5 class="card-title textt" style={{ fontSize: '17px' }}>{ele.title}</h5>
+                                                </span>
+                                            </div>
                                         <div class="card-body">
                                             <div>
                                                 <h5 class="card-title justify-contant-start" style={{ fontSize: '17px' }}>{ele.title}</h5>
@@ -844,8 +873,8 @@ const Home = () => {
 
                                             </div>
                                             <div className='bottomDis row'>
-                                                <p class="card-text col-lg-9 col-sm-8 pt-4 text2" style={{ fontSize: '14px', color: '#92a2ad' }}>{ele.bou}</p>
-                                                <div className='price col-lg-3 col-sm-4 ' style={{ paddingRight: "20px", marginTop: '20px' }}>
+                                                <p class="card-text col-lg-9 col-sm-8 pt-4 text2 col-8" style={{ fontSize: '14px', color: '#92a2ad' }}>{ele.bou}</p>
+                                                <div className='price col-lg-3 col-sm-4 col-4' style={{ paddingRight: "20px", marginTop: '20px' }}>
                                                     <h5 class="card-text1   " style={{ fontSize: '0.8rem' }}><span className='old' style={{ padding: '15px 8px 0px 0px' }}>{ele.oldPrice}</span><span style={{ padding: "0px 0px 10px 0px", fontSize: '1.8rem', color: "#01b2ee" }} > {ele.realPrice}</span>
                                                     </h5>
 
@@ -875,8 +904,12 @@ const Home = () => {
 
                                     <div className='test card mx-2'>
 
-                                        <img class="card-img-top" src={ele.img} alt="Card image cap" />
-
+                                    <div className='container1'>
+                                                <img class="card-img-top " src={ele.img} alt="Card image cap image" />
+                                                <span class="overlay">
+                                                <h5 class="card-title textt" style={{ fontSize: '17px' }}>{ele.title}</h5>
+                                                </span>
+                                            </div>
                                         <div class="card-body">
                                             <div>
                                                 <h5 class="card-title justify-contant-start" style={{ fontSize: '17px' }}>{ele.title}</h5>
@@ -885,8 +918,8 @@ const Home = () => {
 
                                             </div>
                                             <div className='bottomDis row'>
-                                                <p class="card-text col-lg-9 col-sm-8 pt-4 text2" style={{ fontSize: '14px', color: '#92a2ad' }}>{ele.bou}</p>
-                                                <div className='price col-lg-3 col-sm-4 ' style={{ paddingRight: "20px", marginTop: '20px' }}>
+                                                <p class="card-text col-lg-9 col-sm-8 pt-4 text2 col-8" style={{ fontSize: '14px', color: '#92a2ad' }}>{ele.bou}</p>
+                                                <div className='price col-lg-3 col-sm-4 col-4' style={{ paddingRight: "20px", marginTop: '20px' }}>
                                                     <h5 class="card-text1   " style={{ fontSize: '0.8rem' }}><span className='old' style={{ padding: '15px 8px 0px 0px' }}>{ele.oldPrice}</span><span style={{ padding: "0px 0px 10px 0px", fontSize: '1.8rem', color: "#01b2ee" }} > {ele.realPrice}</span>
                                                     </h5>
 
@@ -919,8 +952,12 @@ const Home = () => {
 
                                     <div className='test card mx-2'>
 
-                                        <img class="card-img-top" src={ele.img} alt="Card image cap" />
-
+                                    <div className='container1'>
+                                                <img class="card-img-top " src={ele.img} alt="Card image cap image" />
+                                                <span class="overlay">
+                                                <h5 class="card-title textt" style={{ fontSize: '17px' }}>{ele.title}</h5>
+                                                </span>
+                                            </div>
                                         <div class="card-body">
                                             <div>
                                                 <h5 class="card-title justify-contant-start" style={{ fontSize: '17px' }}>{ele.title}</h5>
@@ -929,8 +966,8 @@ const Home = () => {
 
                                             </div>
                                             <div className='bottomDis row'>
-                                                <p class="card-text col-lg-9 col-sm-8 pt-4 text2" style={{ fontSize: '14px', color: '#92a2ad' }}>{ele.bou}</p>
-                                                <div className='price col-lg-3 col-sm-4 ' style={{ paddingRight: "20px", marginTop: '20px' }}>
+                                                <p class="card-text col-lg-9 col-sm-8 pt-4 text2 col-8" style={{ fontSize: '14px', color: '#92a2ad' }}>{ele.bou}</p>
+                                                <div className='price col-lg-3 col-sm-4 col-4' style={{ paddingRight: "20px", marginTop: '20px' }}>
                                                     <h5 class="card-text1   " style={{ fontSize: '0.8rem' }}><span className='old' style={{ padding: '15px 8px 0px 0px' }}>{ele.oldPrice}</span><span style={{ padding: "0px 0px 10px 0px", fontSize: '1.8rem', color: "#01b2ee" }} > {ele.realPrice}</span>
                                                     </h5>
 

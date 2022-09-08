@@ -16,3 +16,8 @@ color: #4f5864;
 .icon{
     margin: 8px;
 }
+@media screen and (max-width: 500px){
+.tt{
+    margin-top: 30px;
+}
+}
